@@ -1,26 +1,42 @@
 {
-  "name": "dme2",
-  "version": "0.0.2",
+  "name": "dme2-sdk",
+  "version": "1.0.0",
   "description": "This module allows one to connect to DNSMadeEasy's APIs (V2.0)",
   "main": "lib/dnsmadeeasy.js",
   "dependencies": {
+    "bluebird": "^2.9.34",
     "crypto": "~0.0.3",
-    "request": "~2.12.0"
+    "lodash": "^3.10.1",
+    "request": "~2.60.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai-subset": "^1.0.1",
+    "co-mocha": "^1.1.2",
+    "eslint": "1.0.0",
+    "istanbul": "^0.3.17",
+    "mocha": "^2.2.5",
+    "nock": "^2.10.0",
+    "pre-commit": "^1.1.1",
+    "sinon-chai": "^2.8.0",
+    "winston": "^1.0.1"
+  },
   "scripts": {
-    "test": "node tests.js"
+    "coverage": "NODE_ENV=test istanbul cover _mocha -- --require co-mocha $(find lib -name \"*.spec.js\"); open coverage/lcov-report/index.html",
+    "test": "NODE_ENV=test mocha --require co-mocha $(find lib -name \"*.spec.js\")",
+    "eslint": "eslint lib"
   },
+  "pre-commit": [
+    "eslint",
+    "test"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/5060/dme2-node.git"
+    "url": "https://github.com/emartech/dme-node"
   },
   "keywords": [
     "dnsmadeeasy",
     "dns",
     "api"
   ],
-  "author": "Evan Lucas",
-  "license": "GPL",
-  "readmeFilename": "README.md"
+  "author": "Gergely Nemeth"
 }
