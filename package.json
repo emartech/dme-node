@@ -1,0 +1,26 @@
+{
+  "name": "dme2",
+  "version": "0.0.2",
+  "description": "This module allows one to connect to DNSMadeEasy's APIs (V2.0)",
+  "main": "lib/dnsmadeeasy.js",
+  "dependencies": {
+    "crypto": "~0.0.3",
+    "request": "~2.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/5060/dme2-node.git"
+  },
+  "keywords": [
+    "dnsmadeeasy",
+    "dns",
+    "api"
+  ],
+  "author": "Evan Lucas",
+  "license": "GPL",
+  "readmeFilename": "README.md"
+}
