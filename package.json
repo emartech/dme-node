@@ -1,5 +1,5 @@
 {
-  "name": "dme2-sdk",
+  "name": "dme-sdk",
   "version": "1.0.0",
   "description": "This module allows one to connect to DNSMadeEasy's APIs (V2.0)",
   "main": "lib/dnsmadeeasy.js",
@@ -38,5 +38,5 @@
     "dns",
     "api"
   ],
-  "author": "Gergely Nemeth"
+  "author": "RisingStack"
 }
