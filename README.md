@@ -1,4 +1,4 @@
-## dme2-sdk
+## dme-sdk
 ### A node module for DNSMadeEasy's V2.0 API
 
 ### To use
@@ -6,7 +6,7 @@
 - Import the module
 
 ```javascript
-var dme = require('dme2');
+var dme = require('dme-sdk');
 ```
 
 - Setup config
