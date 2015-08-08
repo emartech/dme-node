@@ -39,4 +39,20 @@ mgdns.getAllDomains()
 ```
 
 ### Working submodules
-- ManagedDNS
+
+#### ManagedDNS
+
+* `getDomain(domainId)`
+* `createDomain(payload)`
+* `updateDomain(domainId, payload)`
+* `deleteDomain(domainId)`
+* `deleteDomain(domainId)`
+* `getAllDomains()`
+* `updateMultipleDomains(payload)`
+* `removeMultipleDomains(payload)`
+* `createRecordForDomain(domainId, payload)`
+* `updateRecordForDomain(domainId, recordId, payload)`
+* `deleteRecordForDomain(domainId, recordId)`
+* `getRecordsForDomain(domainId)`
+* `createRecordsForDomain(domainId, payload)`
+* `updateRecordsForDomain(domainId, payload)`
