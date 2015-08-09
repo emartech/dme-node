@@ -49,7 +49,7 @@ mgdns.getAllDomains()
 * `deleteDomain(domainId)`
 * `getAllDomains()`
 * `updateMultipleDomains(payload)`
-* `removeMultipleDomains(payload)`
+* `deleteMultipleDomains(payload)`
 * `createRecordForDomain(domainId, payload)`
 * `updateRecordForDomain(domainId, recordId, payload)`
 * `deleteRecordForDomain(domainId, recordId)`
