@@ -28,7 +28,7 @@ var client = dme.createClient(config);
 - Access ManagedDNS
 
 ```javascript
-var mgdns = new dnsmadeeasy.ManagedDNS(client);
+var mgdns = dme.ManagedDNS.createManagedDNS(client);
 mgdns.getAllDomains()
 	.then(function(data) {
 		console.log(data);
