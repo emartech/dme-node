@@ -5,9 +5,8 @@
   "main": "lib/dnsmadeeasy.js",
   "dependencies": {
     "bluebird": "^2.9.34",
-    "crypto": "~0.0.3",
     "lodash": "^3.10.1",
-    "request": "~2.60.0"
+    "request": "^2.60.0"
   },
   "devDependencies": {
     "chai-subset": "^1.0.1",
