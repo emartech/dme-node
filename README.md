@@ -56,3 +56,7 @@ mgdns.getAllDomains()
 * `getRecordsForDomain(domainId)`
 * `createRecordsForDomain(domainId, payload)`
 * `updateRecordsForDomain(domainId, payload)`
+
+#### Usage
+
+* `getUsage()`
