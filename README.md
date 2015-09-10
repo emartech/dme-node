@@ -38,6 +38,19 @@ mgdns.getAllDomains()
 	});
 ```
 
+- Access Usage
+
+```javascript
+var usage = dme.Usage.create(client);
+usage.getUsage()
+	.then(function(data) {
+		console.log(data);
+	})
+	.catch(function(err) {
+		console.log(err);
+	});
+```
+
 ### Working submodules
 
 #### ManagedDNS
