@@ -4,17 +4,17 @@
   "description": "This module allows one to connect to DNSMadeEasy's APIs (V2.0)",
   "main": "lib/dnsmadeeasy.js",
   "dependencies": {
-    "bluebird": "^2.9.34",
+    "bluebird": "^2.10.0",
     "lodash": "^3.10.1",
-    "request": "^2.60.0"
+    "request": "^2.62.0"
   },
   "devDependencies": {
-    "chai-subset": "^1.0.1",
+    "chai-subset": "^1.1.0",
     "co-mocha": "^1.1.2",
-    "eslint": "1.0.0",
-    "istanbul": "^0.3.17",
-    "mocha": "^2.2.5",
-    "nock": "^2.10.0",
+    "eslint": "1.4.1",
+    "istanbul": "^0.3.20",
+    "mocha": "^2.3.2",
+    "nock": "^2.11.0",
     "pre-commit": "^1.1.1",
     "sinon-chai": "^2.8.0",
     "winston": "^1.0.1"
