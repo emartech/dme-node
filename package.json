@@ -25,11 +25,12 @@
     "coverage": "NODE_ENV=test istanbul cover _mocha -- --require co-mocha $(find lib -name \"*.spec.js\"); open coverage/lcov-report/index.html",
     "test": "NODE_ENV=test mocha --require co-mocha $(find lib -name \"*.spec.js\")",
     "eslint": "eslint lib",
-    "install": "validate-commit-msg"
+    "validate-commit-msg": "validate-commit-msg"
   },
   "pre-commit": [
     "eslint",
-    "test"
+    "test",
+    "validate-commit-msg"
   ],
   "repository": {
     "type": "git",
