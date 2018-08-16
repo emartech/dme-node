@@ -41,5 +41,6 @@
     "dns",
     "api"
   ],
-  "author": "RisingStack"
+  "author": "RisingStack",
+  "license": "MIT"
 }
